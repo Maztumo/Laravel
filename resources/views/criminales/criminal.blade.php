@@ -9,6 +9,6 @@
     <title>CICPC | Criminales</title>
 </head>
 <body>
-    <h1> Aqui aparece el historial del criminal: <?= $criminal?></h1>
+    <h1> Aqui aparece el historial del criminal: {{$criminal}}</h1>
 </body>
 </html>
