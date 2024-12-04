@@ -8,17 +8,17 @@ class CriminalController extends Controller
 {
     public function criminales(){
 
-        return view('criminales/criminales');
+        return view('pag/criminales');
     }
 
     public function criminal1($criminal){
 
-        return view('criminales.criminal', ['criminal' => $criminal]);
+        return view('pag.criminal', ['criminal' => $criminal]);
     }
 
     public function mas($criminal, $mas = null){
 
-        return view('criminales.mas',['criminal' => $criminal],['mas' => $mas]);
+        return view('pag.mas',['criminal' => $criminal],['mas' => $mas]);
     }
 
 
